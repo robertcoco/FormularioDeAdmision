@@ -1,0 +1,305 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: flex-start;  /* Aligns items at the top */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+}
+
+/* Styling for H1 */
+.main-heading {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 100vw; /* Ensures full width */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #3e92e0; /* Light blue background */
+    display: flex; /* Enables flexbox */
+    flex-direction: column; /* Stack image and text */
+    align-items: center; /* Centers content horizontally */
+    justify-content: center; /* Centers content vertically */
+}
+
+/* Styling for the Image */
+.main-heading .logo {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+
+h1 {
+    text-align: center;
+    color: rgba(51, 41, 202, 0.507);
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px; /* Add some space between the title and the form */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;  /* Ensures padding is included in the width calculation */
+    border-radius: 10px;
+
+}
+
+form {
+    width: 100%;
+    max-width: 400px; /* Reduced form width for thinner sections */
+    margin: 0 auto; /* This will center the form horizontally */
+}
+
+section {
+    background-color: #f0f0f0;  /* Light gray background for each section */
+    padding: 20px;
+    margin-bottom: 20px;  /* Increased margin between sections */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center content horizontally */
+}
+
+/* Updating the sections' backgrounds for a uniform theme */
+section#informacion-personal, section#datos-personales {
+    background-color: #f1faff;  /* Light blue background */
+}
+
+
+/* Make the radio buttons larger */
+input[type="radio"] {
+    transform: scale(1.5); /* This will scale the radio buttons */
+    margin-right: 10px;    /* Optional: adds space between the radio button and the label */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Styling the input fields to fit the form */
+input, select, textarea {
+    width: 90%; /* Reduced width of inputs to make them fit inside the section */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.familiar-selection {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 380px; /* Adjusted width for familiar-selection */
+    margin: 20px auto;
+    text-align: center;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: flex-start;  /* Aligns items at the top */
+    min-height: 100vh; /* Ensures the body takes up the full viewport height */
+    flex-direction: column;  /* Ensures that the h1 and form stack vertically */
+}
+
+h1 {
+    text-align: center;
+    color: black; /* Plain black text */
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px; /* Adds space between the title and the form */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    background-color: transparent; /* Removes background */
+    border-radius: 0; /* Removes rounded corners */
+    box-shadow: none; /* Removes shadow */
+}
+
+form {
+    width: 100%;
+    max-width: 400px; /* Reduced form width for thinner sections */
+    margin: 0 auto; /* This will center the form horizontally */
+}
+
+section {
+    background-color: #f0f0f0;  /* Light gray background for each section */
+    padding: 20px;
+    margin-bottom: 20px;  /* Increased margin between sections */
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center content horizontally */
+}
+
+h3{
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(77, 119, 233, 0.952); /* Plain black text */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #007bb5; /* Keeping the border color */
+    padding-bottom: 5px;
+    text-shadow: 2px 0px 1px rgb(0, 0, 2); /* Left-inclined blue shadow */
+}
+
+/* Make the radio buttons larger */
+input[type="radio"] {
+    transform: scale(1.5); /* This will scale the radio buttons */
+    margin: 10px;
+    margin-right: 10px;    /* Optional: adds space between the radio button and the label */
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+input, select, textarea {
+    width: 90%; /* Reduced width of inputs to make them fit inside the section */
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.familiar-selection {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    max-width: 380px; /* Adjusted width for familiar-selection */
+    margin: 5px auto;
+    text-align: center;
+    
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+}
+
+.radio-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+.radio-group-sex{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20px;
+}
+
+.radio-group label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    margin: 20px;
+}
+
+/* New Styles for Matching Design in "Sexo" Field */
+.radio-group {
+    background-color: transparent; /* No background */
+    padding: 10px; 
+    border-radius: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 4px; /* Adjust this value to reduce spacing */
+}
+
+/* Customizing the radio button style */
+.radio-group input[type="radio"] {
+    transform: scale(1.5); /* Larger size */
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
